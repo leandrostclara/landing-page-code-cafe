@@ -6,8 +6,8 @@ body {
 }
 
 .cabecalho {
-    padding: 27px 25px;
     position: relative;
+    padding: 27px 25px;
 }
 
 .cabecalho .logo {
@@ -17,7 +17,7 @@ body {
     display: inline-block;
 }
 
-.cabecalho .logo h1 {
+.cabecalho h1 {
     font-size: 0;
     display: inline-block;
 }
@@ -26,13 +26,12 @@ body {
     display: inline-block;
     position: absolute;
     right: 0;
-    margin-top: 37px;
+    margin-top: 30px;
 }
 
 .cabecalho ul li {
     display: inline-block;
-    padding: 0 34px 0 13px;
-    
+    margin: 0 23px;
 }
 
 .cabecalho ul li a {
@@ -45,71 +44,74 @@ body {
 
 .painel {
     background: url(../images/painel.jpg) center center no-repeat;
-    height: 630px;
+    height: 628px;
 }
 
 .painel h2 {
-    color: #fff;
     font-size: 60px;
     font-weight: 400;
+    color: white;
     text-align: center;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
 }
 
-.imagem-com-texto {
-    padding: 153px 369px;
+.img-com-texto {
+    padding: 153px;
     text-align: center;
     clear: both;
 }
 
-.imagem-com-texto img {
+.img-com-texto img {
     width: 170px;
     height: 170px;
     margin-bottom: 70px;
 }
 
-.imagem-com-texto h2 {
-    margin-bottom: 37px;
+.img-com-texto h2 {
     font-size: 45px;
     font-weight: 600;
+    margin-bottom: 37px;
 }
 
-.imagem-com-texto p {
+.img-com-texto p {
     font-size: 18px;
+    width: 702px;
+    margin: 0 auto;
 }
 
-.ladrilhos div{
+.ladrilho div {
     float: left;
 }
 
-.ladrilhos .grande {
+.ladrilho .grande {
     background: url(../images/4.jpg) center center no-repeat;
-    width: 50%;
     height: 600px;
-}
-
-.ladrilhos .pequena.grao {
-    background: url(../images/2.jpg) center center no-repeat;
-    width: 25%;
-    height: 300px;
-}
-
-.ladrilhos .pequena {
-    background: url(../images/3.jpg) center center no-repeat;
-    width: 25%;
-    height: 300px;
-}
-
-.ladrilhos .media {
-    background: url(../images/1.jpg) center center no-repeat;
     width: 50%;
-    height: 300px;
 }
 
-.imagem-com-texto.onde-estamos p {
+.ladrilho .pequeno.grao {
+    background: url(../images/2.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .pequeno {
+    background: url(../images/3.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .medio {
+    background: url(../images/1.jpg) center center no-repeat;
+    height: 300px;
+    width: 50%;
+}
+
+.img-com-texto.onde-estamos p {
     font-size: 28px;
+    width: 480px;
 }
 
 .contato {
@@ -118,74 +120,71 @@ body {
     position: relative;
 }
 
-.contato h2 {
-    font-size: 45px;
-    font-weight: 600;
-    color: #fff;
-    padding: 161px 484px 383px 796px;
+.contato .texto-contato {
+    position: absolute;
+    top: 30%;
+    left: 50%;
 }
 
-.contato p {
-    font-size: 25px;
-    color: #fff;
+.contato .texto-contato h2 {
+    color: white;
+    font-size: 45px;
     font-weight: 600;
-    position: absolute;
-    top: 247px;
-    left: 789px;
+}
+
+.contato .texto-contato address {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
 }
 
 .rodape {
     background: url(../images/fundo-rodape.jpg) center center no-repeat;
+    padding: 35px 30px 0 30px;
+    background-size: cover;
     position: relative;
-    height: 211px;
-}
-
-.rodape .logo img {
-    padding-top: 35px;
-    padding-left: 30px;
 }
 
 .rodape nav {
     display: inline-block;
     position: absolute;
     right: 0;
-    margin-top: 72px;
+    margin-top: 30px;
+}
+
+.rodape .logo {
+    width: 85px;
+    height: 85px;
+}
+
+.rodape .redes-sociais .facebook,
+.rodape .redes-sociais .instagram {
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.rodape .redes-sociais {
+    float: right;
 }
 
 .rodape ul li {
     display: inline-block;
-    padding: 0 29px 0px 18px;
+    margin: 0 23px;
 }
 
 .rodape ul li a {
-    color: #fff;
-    font-weight: 400;
+    color: white;
 }
 
 .rodape ul li a:hover {
     font-weight: bold;
 }
 
-.rodape .facebook {
-    width: 20px;
-    height: 20px;
-}
-
-.rodape .instagram {
-    width: 20px;
-    height: 20px;
-    margin-left: 20px;
-}
-
-.rodape .redes-sociais {
-    position: absolute;
-    top: 159px;
-    right: 29px;
-}
-
 .rodape p {
-    color: #fff;
-    position: absolute;
-    left: 30px;
-    top: 160px;
+    color: white;
+}
+
+.rodape .baixo-rodape {
+    padding: 30px 0px;
 }
